@@ -10,12 +10,10 @@ class Espresso implements Coffe {
 
     grindCoffe() {
         console.log(`Your ${this.name} is being grinded...`)
-        console.log(`Your coffe is ready!`)
 
     }
     makeCoffe() {
         console.log(`Your ${this.name} is being made...`)
-        console.log(`Your coffe is ready!`)
 
     }
     pourIntoCup() {
@@ -30,12 +28,10 @@ class Cappuccino implements Coffe {
 
     grindCoffe() {
         console.log(`Your ${this.name} is being grinded...`)
-        console.log(`Your coffe is ready!`)
 
     }
     makeCoffe() {
         console.log(`Your ${this.name} is being made...`)
-        console.log(`Your coffe is ready!`)
 
     }
     pourIntoCup() {
@@ -50,11 +46,9 @@ class Americano implements Coffe {
 
     grindCoffe() {
         console.log(`Your ${this.name} is being grinded...`)
-        console.log(`Your coffe is ready!`)
     }
     makeCoffe() {
         console.log(`Your ${this.name} is being made...`)
-        console.log(`Your coffe is ready!`)
     }
     pourIntoCup() {
         console.log(`Pouring the ${this.name} into your cup...`)
